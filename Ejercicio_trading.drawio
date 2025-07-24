@@ -1,0 +1,184 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" version="28.0.6">
+  <diagram name="Página-1" id="J91AH4Lt7vjpaW16oNAa">
+    <mxGraphModel dx="2066" dy="1137" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="4E5aGZeTM9w0mLXoIrac-1" value="&lt;b&gt;USE CASE: Desarrollo de una Plataforma de Trading Social&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="411" y="40" width="830" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4E5aGZeTM9w0mLXoIrac-2" value="Problema Base:" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="150" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4E5aGZeTM9w0mLXoIrac-3" value="Diagrama:" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="160" y="330" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4E5aGZeTM9w0mLXoIrac-4" value="* Desarrolla un plataforma de trading con algoritmos de inversión basados en IA.&lt;div&gt;&amp;nbsp;* La plataforma debe tener acceso a los algos. mediante la llamada a diferentes APIs&lt;/div&gt;&lt;div&gt;* Cada algoritmo de inversión implementará una estrategia diferente y podemos utilizar diferentes modelos. Para el control de experimentos utilizaremos MLflow (&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;a style=&quot;color: rgb(11, 87, 208); font-family: monospace; font-size: 14px; text-align: start; white-space: pre; background-color: rgb(255, 255, 255);&quot; href=&quot;https://8a1eecce0e44.ngrok-free.app/&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;https://8a1eecce0e44.ngrok-free.app&lt;/a&gt;)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="220" y="210" width="620" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="4E5aGZeTM9w0mLXoIrac-6" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="380" width="440" height="450" as="geometry" />
+        </mxCell>
+        <mxCell id="4E5aGZeTM9w0mLXoIrac-7" value="Plataforma trading" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="160" y="380" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4E5aGZeTM9w0mLXoIrac-8" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="450" width="200" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="4E5aGZeTM9w0mLXoIrac-9" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="450" width="200" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="4E5aGZeTM9w0mLXoIrac-10" value="UI" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="170" y="450" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4E5aGZeTM9w0mLXoIrac-11" value="Backend" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="390" y="450" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4E5aGZeTM9w0mLXoIrac-12" value="Backtesting" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="205" y="500" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4E5aGZeTM9w0mLXoIrac-13" value="Prob. bull/bear" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="205" y="550" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4E5aGZeTM9w0mLXoIrac-14" value="Explicabilidad de las tendencias o predicciones" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="205" y="600" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4E5aGZeTM9w0mLXoIrac-15" value="Robo-advisor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="205" y="650" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4E5aGZeTM9w0mLXoIrac-16" value="Visualización de datos financieros" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="205" y="700" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4E5aGZeTM9w0mLXoIrac-17" value="Backtesting" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="500" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4E5aGZeTM9w0mLXoIrac-19" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="4E5aGZeTM9w0mLXoIrac-12" target="4E5aGZeTM9w0mLXoIrac-17">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="850" y="510" as="sourcePoint" />
+            <mxPoint x="900" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4E5aGZeTM9w0mLXoIrac-20" value="algo 1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="840" y="360" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4E5aGZeTM9w0mLXoIrac-21" value="algo 2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="840" y="460" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4E5aGZeTM9w0mLXoIrac-22" value="algo 3" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="840" y="560" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4E5aGZeTM9w0mLXoIrac-23" value="algo N" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="840" y="660" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4E5aGZeTM9w0mLXoIrac-24" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="4E5aGZeTM9w0mLXoIrac-17" target="4E5aGZeTM9w0mLXoIrac-20">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="850" y="510" as="sourcePoint" />
+            <mxPoint x="900" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4E5aGZeTM9w0mLXoIrac-25" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="4E5aGZeTM9w0mLXoIrac-17" target="4E5aGZeTM9w0mLXoIrac-21">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="670" y="615" as="sourcePoint" />
+            <mxPoint x="940" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4E5aGZeTM9w0mLXoIrac-26" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="4E5aGZeTM9w0mLXoIrac-17" target="4E5aGZeTM9w0mLXoIrac-22">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="850" y="510" as="sourcePoint" />
+            <mxPoint x="900" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4E5aGZeTM9w0mLXoIrac-27" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="4E5aGZeTM9w0mLXoIrac-17" target="4E5aGZeTM9w0mLXoIrac-23">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="850" y="510" as="sourcePoint" />
+            <mxPoint x="900" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4E5aGZeTM9w0mLXoIrac-28" value="input: Precios" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="690" y="380" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4E5aGZeTM9w0mLXoIrac-29" value="Output:&lt;div&gt;lista trades&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="700" y="690" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4E5aGZeTM9w0mLXoIrac-30" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="920" width="530" height="450" as="geometry" />
+        </mxCell>
+        <mxCell id="4E5aGZeTM9w0mLXoIrac-31" value="Plataforma trading" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="160" y="920" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4E5aGZeTM9w0mLXoIrac-32" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="990" width="200" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="4E5aGZeTM9w0mLXoIrac-33" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="990" width="200" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="4E5aGZeTM9w0mLXoIrac-34" value="UI" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="170" y="990" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4E5aGZeTM9w0mLXoIrac-35" value="Backend" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="390" y="990" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4E5aGZeTM9w0mLXoIrac-36" value="Backtesting" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="205" y="1040" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4E5aGZeTM9w0mLXoIrac-37" value="Prob. bull/bear" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="205" y="1090" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4E5aGZeTM9w0mLXoIrac-38" value="Explicabilidad de las tendencias o predicciones" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="205" y="1140" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4E5aGZeTM9w0mLXoIrac-39" value="Robo-advisor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="205" y="1190" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4E5aGZeTM9w0mLXoIrac-40" value="Visualización de datos financieros" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="205" y="1240" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4E5aGZeTM9w0mLXoIrac-41" value="Backtesting" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="415" y="1090" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4E5aGZeTM9w0mLXoIrac-52" value="algo i" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="827" y="1170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4E5aGZeTM9w0mLXoIrac-53" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="4E5aGZeTM9w0mLXoIrac-52" target="4E5aGZeTM9w0mLXoIrac-41">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="770" y="1150" as="sourcePoint" />
+            <mxPoint x="820" y="1100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4E5aGZeTM9w0mLXoIrac-54" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="4E5aGZeTM9w0mLXoIrac-41" target="4E5aGZeTM9w0mLXoIrac-55">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="850" y="920" as="sourcePoint" />
+            <mxPoint x="700" y="1030" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4E5aGZeTM9w0mLXoIrac-55" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="610" y="990" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4E5aGZeTM9w0mLXoIrac-56" value="cron job diario" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="680" y="1160" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4E5aGZeTM9w0mLXoIrac-58" value="fetch trades" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="414" y="1040" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4E5aGZeTM9w0mLXoIrac-59" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="4E5aGZeTM9w0mLXoIrac-55" target="4E5aGZeTM9w0mLXoIrac-58">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="850" y="920" as="sourcePoint" />
+            <mxPoint x="900" y="870" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4E5aGZeTM9w0mLXoIrac-60" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="4E5aGZeTM9w0mLXoIrac-58" target="4E5aGZeTM9w0mLXoIrac-36">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="850" y="920" as="sourcePoint" />
+            <mxPoint x="900" y="870" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4E5aGZeTM9w0mLXoIrac-61" value="Repositorio: Github con al menos DEV y PROD&lt;div&gt;Experimentación: MLFlow&lt;/div&gt;&lt;div&gt;CLoud: Render.&lt;/div&gt;&lt;div&gt;CI/CD pipelines: Gith Actions&lt;/div&gt;&lt;div&gt;Microservicios: FastAPI&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1150" y="430" width="230" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="4E5aGZeTM9w0mLXoIrac-62" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="360" width="100" height="370" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
