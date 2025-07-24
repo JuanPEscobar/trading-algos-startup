@@ -1,1 +1,3 @@
-mlfow
+mlflow
+fastapi
+uvicorn[standard]
